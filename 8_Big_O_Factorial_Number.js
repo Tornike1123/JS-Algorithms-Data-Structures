@@ -19,3 +19,5 @@ function factorialize2(x) {
 }
 
 console.log(factorialize2(4)); // (1*2*3*4) 24
+
+
