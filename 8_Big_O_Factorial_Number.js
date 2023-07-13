@@ -17,7 +17,14 @@ function factorialize2(x) {
 	}
 	return result;
 }
-
 console.log(factorialize2(4)); // (1*2*3*4) 24
 
-
+// V3
+function factorialize3(f){
+if(f === 0){
+	return 1
+}else{
+	return f * factorialize3(f - 1)
+}
+}
+console.log(factorialize3(4)) //(24)
