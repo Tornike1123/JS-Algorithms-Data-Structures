@@ -1,10 +1,10 @@
-const toko = (n) => {
+function toko(n) {
 
-    return new Promise((resolve)=>{
+    return new Promise((resolve) => {
         setTimeout(() => {
-            resolve("toko")
+            resolve("toko");
         }, n * 1000);
-    })
+    });
 }
     
 async function func (n){
