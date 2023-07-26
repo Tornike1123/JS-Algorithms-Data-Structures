@@ -1,5 +1,5 @@
 //price * count
-
+//V1
 const product = [
     {
       name: 'laptop',
@@ -21,3 +21,11 @@ const product = [
 const prod = product.map((item)=> item.price * item.count);
 
 console.log(prod);
+
+//V2
+//სტრინგის რიცხვად ამოღება
+
+const str = ["0","1","2"]
+
+const number = str.map(Number)
+console.log(number);
