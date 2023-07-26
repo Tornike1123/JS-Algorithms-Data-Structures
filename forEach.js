@@ -11,7 +11,7 @@ number.forEach(item =>{
 console.log(sum); // 15
 
 //V2
-
+// რამდენჯერ მეორდება მასივში არსებული ასო
 const arr = ['a','b','c','a','a','c'];
 let count = {};
 
